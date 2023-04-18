@@ -1,4 +1,4 @@
-def hello_gcs(event, context):
+def trigger_gcs(event, context):
     """Cloud Function to be triggered by Cloud Storage.
     Args:
         event (dict):  The dictionary with data specific to this type of event.
